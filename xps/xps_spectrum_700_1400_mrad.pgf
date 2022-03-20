@@ -24,7 +24,7 @@
 \begingroup%
 \makeatletter%
 \begin{pgfpicture}%
-\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{5.358118in}{3.765125in}}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{5.358118in}{3.899417in}}%
 \pgfusepath{use as bounding box, clip}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -36,8 +36,8 @@
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathlineto{\pgfqpoint{5.358118in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{5.358118in}{3.765125in}}%
-\pgfpathlineto{\pgfqpoint{0.000000in}{3.765125in}}%
+\pgfpathlineto{\pgfqpoint{5.358118in}{3.899417in}}%
+\pgfpathlineto{\pgfqpoint{0.000000in}{3.899417in}}%
 \pgfpathlineto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathclose%
 \pgfusepath{}%
@@ -2521,13 +2521,13 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.247007in,y=2.008883in,,bottom,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Photonenfluss in Photonen s\(\displaystyle ^{-1}\)sr\(\displaystyle ^{-1}\) pro \SI{0,1}{\percent} BB}%
+\pgftext[x=0.247007in,y=2.008883in,,bottom,rotate=90.000000]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Photonenfluss Q\(\displaystyle _\text{PXS}\) in Photonen s\(\displaystyle ^{-1}\)mrad\(\displaystyle ^{-2}\) pro \SI{0,1}{\percent} BB}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.469229in,y=3.560550in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont \(\displaystyle \times{10^{10}}{}\)}%
+\pgftext[x=0.469229in,y=3.560550in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont \(\displaystyle \times{10^{4}}{}\)}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.469229in}{0.498883in}}{\pgfqpoint{4.650000in}{3.020000in}}%
