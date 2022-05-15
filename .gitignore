@@ -1,3 +1,6 @@
 dark_auswertung_02032022
 .ipynb_checkpoints
 *.tiff
+*.zip
+*.npy
+dask-worker-space
