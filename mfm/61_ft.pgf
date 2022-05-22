@@ -19,7 +19,7 @@
 %%   \import{<path to file>}{<filename>.pgf}
 %%
 %% Matplotlib used the following preamble
-%%   \usepackage{amsmath} \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc}\usepackage[output-decimal-marker={,}]{siunitx} \sisetup{per-mode=fraction, separate-uncertainty = true, locale = DE} \usepackage[acronym, toc, section=section, nonumberlist, nopostdot]{glossaries-extra}
+%%   \usepackage{amsmath} \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage[output-decimal-marker={,},print-unity-mantissa=false]{siunitx} \sisetup{per-mode=fraction, separate-uncertainty = true, locale = DE} \usepackage[acronym, toc, section=section, nonumberlist, nopostdot]{glossaries-extra}
 %%
 \begingroup%
 \makeatletter%
@@ -47,47 +47,6 @@
 \pgfusepath{clip}%
 \pgfsys@transformshift{0.000000in}{0.000000in}%
 \pgftext[left,bottom]{\includegraphics[interpolate=true,width=1.236111in,height=1.236111in]{61_ft-img0.png}}%
-\end{pgfscope}%
-\begin{pgfscope}%
-\pgfsetbuttcap%
-\pgfsetmiterjoin%
-\definecolor{currentfill}{rgb}{1.000000,1.000000,1.000000}%
-\pgfsetfillcolor{currentfill}%
-\pgfsetlinewidth{1.003750pt}%
-\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
-\pgfsetstrokecolor{currentstroke}%
-\pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.689430in}{0.924974in}}%
-\pgfpathlineto{\pgfqpoint{1.209211in}{0.924974in}}%
-\pgfpathlineto{\pgfqpoint{1.209211in}{1.209211in}}%
-\pgfpathlineto{\pgfqpoint{0.689430in}{1.209211in}}%
-\pgfpathlineto{\pgfqpoint{0.689430in}{0.924974in}}%
-\pgfpathclose%
-\pgfusepath{stroke,fill}%
-\end{pgfscope}%
-\begin{pgfscope}%
-\pgfsetbuttcap%
-\pgfsetmiterjoin%
-\definecolor{currentfill}{rgb}{0.000000,0.000000,0.000000}%
-\pgfsetfillcolor{currentfill}%
-\pgfsetlinewidth{0.000000pt}%
-\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
-\pgfsetstrokecolor{currentstroke}%
-\pgfsetstrokeopacity{0.000000}%
-\pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.879798in}{1.181433in}}%
-\pgfpathlineto{\pgfqpoint{1.018843in}{1.181433in}}%
-\pgfpathlineto{\pgfqpoint{1.018843in}{1.169202in}}%
-\pgfpathlineto{\pgfqpoint{0.879798in}{1.169202in}}%
-\pgfpathlineto{\pgfqpoint{0.879798in}{1.181433in}}%
-\pgfpathclose%
-\pgfusepath{fill}%
-\end{pgfscope}%
-\begin{pgfscope}%
-\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
-\pgfsetstrokecolor{textcolor}%
-\pgfsetfillcolor{textcolor}%
-\pgftext[x=0.717208in,y=0.979757in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont 5 \(\displaystyle \mathrm{\mu}\)m\(\displaystyle ^{-1}\)}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%
