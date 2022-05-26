@@ -19,7 +19,7 @@
 %%   \import{<path to file>}{<filename>.pgf}
 %%
 %% Matplotlib used the following preamble
-%%   \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage[ngerman]{babel} \usepackage{hyperref} \usepackage[sorting=none]{biblatex} \usepackage{amsmath} \usepackage[output-decimal-marker={,}]{siunitx} \sisetup{per-mode=fraction, separate-uncertainty = true, locale = DE} \usepackage[acronym, toc, section=section, nonumberlist, nopostdot]{glossaries-extra}
+%%   \usepackage{amsmath} \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage[output-decimal-marker={,},print-unity-mantissa=false]{siunitx} \sisetup{per-mode=fraction, separate-uncertainty = true, locale = DE} \usepackage[acronym, toc, section=section, nonumberlist, nopostdot]{glossaries-extra} \DeclareSIUnit\adu{\text{ADU}} \DeclareSIUnit\px{\text{px}} \DeclareSIUnit\photons{\text{Pho\-to\-nen}} \DeclareSIUnit\photon{\text{Pho\-ton}}
 %%
 \begingroup%
 \makeatletter%
@@ -1777,16 +1777,16 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetstrokeopacity{0.800000}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.533420in}{2.341346in}}%
-\pgfpathlineto{\pgfqpoint{3.348928in}{2.341346in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{3.376705in}{2.341346in}}{\pgfqpoint{3.376705in}{2.369123in}}%
-\pgfpathlineto{\pgfqpoint{3.376705in}{3.132116in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{3.376705in}{3.159894in}}{\pgfqpoint{3.348928in}{3.159894in}}%
+\pgfpathmoveto{\pgfqpoint{0.533420in}{2.542781in}}%
+\pgfpathlineto{\pgfqpoint{3.080827in}{2.542781in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{3.108605in}{2.542781in}}{\pgfqpoint{3.108605in}{2.570559in}}%
+\pgfpathlineto{\pgfqpoint{3.108605in}{3.132116in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{3.108605in}{3.159894in}}{\pgfqpoint{3.080827in}{3.159894in}}%
 \pgfpathlineto{\pgfqpoint{0.533420in}{3.159894in}}%
 \pgfpathquadraticcurveto{\pgfqpoint{0.505643in}{3.159894in}}{\pgfqpoint{0.505643in}{3.132116in}}%
-\pgfpathlineto{\pgfqpoint{0.505643in}{2.369123in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{0.505643in}{2.341346in}}{\pgfqpoint{0.533420in}{2.341346in}}%
-\pgfpathlineto{\pgfqpoint{0.533420in}{2.341346in}}%
+\pgfpathlineto{\pgfqpoint{0.505643in}{2.570559in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{0.505643in}{2.542781in}}{\pgfqpoint{0.533420in}{2.542781in}}%
+\pgfpathlineto{\pgfqpoint{0.533420in}{2.542781in}}%
 \pgfpathclose%
 \pgfusepath{stroke,fill}%
 \end{pgfscope}%
@@ -1831,16 +1831,22 @@
 \definecolor{currentstroke}{rgb}{1.000000,0.498039,0.054902}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.561198in}{2.667675in}}%
-\pgfpathlineto{\pgfqpoint{0.700087in}{2.667675in}}%
-\pgfpathlineto{\pgfqpoint{0.838976in}{2.667675in}}%
+\pgfpathmoveto{\pgfqpoint{0.561198in}{2.755288in}}%
+\pgfpathlineto{\pgfqpoint{0.700087in}{2.755288in}}%
+\pgfpathlineto{\pgfqpoint{0.838976in}{2.755288in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.950087in,y=2.619064in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont \parbox{6cm}{Referenzkurve \(\displaystyle \sigma(\tau, a, b) = \sqrt{a\tau}+b\) mit\\ \(\displaystyle a=\num{0,2}\) e\(\displaystyle {^-}^2\mu \text{s}^{-1}\) und \(\displaystyle b=\num{34.3}\) e\(\displaystyle {^-}\) \cite{ramilli-measurements-2017}}}%
+\pgftext[x=0.950087in, y=2.792742in, left, base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont Referenzkurve \(\displaystyle \sigma(\tau, a, b) = \sqrt{a\tau}+b\)}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.950087in, y=2.633051in, left, base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont von Ramilli u. a. \cite[Abb. 3]{ramilli-measurements-2017}}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%

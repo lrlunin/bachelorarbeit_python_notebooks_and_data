@@ -115,6 +115,10 @@
 \pgftext[x=0.000000in,y=2.556362in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont (a)}%
 \end{pgfscope}%
 \begin{pgfscope}%
+\pgfsys@transformshift{0.196000in}{0.408063in}%
+\pgftext[left,bottom]{\includegraphics[interpolate=true,width=1.952000in,height=1.954000in]{th_150_mask_snr-img1.png}}%
+\end{pgfscope}%
+\begin{pgfscope}%
 \pgfsetbuttcap%
 \pgfsetmiterjoin%
 \definecolor{currentfill}{rgb}{1.000000,1.000000,1.000000}%
@@ -548,7 +552,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=4.791086in,y=2.191339in,right,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont \(\displaystyle W_\text{Gd, M5}\)}%
+\pgftext[x=4.854505in,y=2.227204in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont \(\displaystyle W_\text{Gd, M5}\)}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -583,7 +587,7 @@
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsys@transformshift{2.270000in}{0.398063in}%
-\pgftext[left,bottom]{\includegraphics[interpolate=true,width=0.100000in,height=1.972000in]{th_150_mask_snr-img1.png}}%
+\pgftext[left,bottom]{\includegraphics[interpolate=true,width=0.100000in,height=1.972000in]{th_150_mask_snr-img2.png}}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
